@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   /* For every modal data component, we want to add an event listener that event listener gets the child item */
   const allModals = document.querySelectorAll("#modal");
 
-  console.log(allModals);
-
   allModals.forEach((m) => {
     const dataId = m.dataset.micromodalId;
 
